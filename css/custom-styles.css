@@ -1,0 +1,68 @@
+/** Style of Dropdown Select **/
+#selector {
+	background-color: #fff;
+}
+
+.dropDown {
+	border-radius: 5px;
+	margin-top: 10px;
+	border: .5px solid #13b1cd;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	position: absolute;
+	overflow: auto;
+		scrollbar-width: thin;
+		display: none;
+
+		transform: translate(0px, -9px);
+		transition: .5s;
+}
+
+.dropDown::-webkit-scrollbar {
+	width: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.dropDown::-webkit-scrollbar-thumb {
+	background-color: #13b1cd;
+	border-radius: 5px;
+}
+
+.item {
+	height: 30px;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	transition: 1s;
+	cursor: pointer;
+	color:  #656565;
+}
+
+.item:hover {
+	background-color: #13b1cd;
+	padding-left: 7px;
+	transition: 1s;
+}
+/** End  **/
+
+.display-flex {
+	display: flex;
+}
+
+.center-image {
+	float: none;
+	margin: auto;
+}
+
+.static-img-height-252 {
+	max-height: 252px;
+}
+
+.ajust-img {
+	max-height: 360px;
+}
+
+.ajust-img-center {
+	position: relative;
+}
