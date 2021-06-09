@@ -46,10 +46,6 @@
 }
 /** End  **/
 
-.display-flex {
-	display: flex;
-}
-
 .center-image {
 	float: none;
 	margin: auto;
