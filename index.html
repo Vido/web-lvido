@@ -55,7 +55,7 @@
                         </div>
                         <div class="s-header__navbar-row-col">
                             <!-- Trigger -->
-                            <a href="javascript:void(0);" class="s-header__trigger js__trigger">
+                            <a href="javascript:void(0);" class="s-header__trigger js__trigger" id="index-menu">
                                 <span class="s-header__trigger-icon"></span>
                                 <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
                                     <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
@@ -92,7 +92,7 @@
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.html">Home</a></li>
 							<li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="solucoes-e-cases.html">Nossas Soluções</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="empresa.html">Empresa</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contato.html">Contato</a></li>
+                            <li class="s-header__nav-menu-item"><a id="close-menu" class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.html#contato">Contato</a></li>
                             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="services.html">Trabalhe conosco</a></li>
                         </ul>
                         <!-- End Menu List -->
@@ -304,8 +304,8 @@
         </div>
         <!-- End Clients -->
 
-        <!--
-        <div class="g-promo-section">
+        
+        <!-- <div class="g-promo-section">
             <div class="container g-padding-y-80--xs g-padding-y-125--sm">
                 <div class="row">
                     <div class="col-md-4 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
@@ -332,8 +332,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        -->
+        </div> -->
+        
 
         <!-- Portfolio Filter -->
         <div class="container">
@@ -357,8 +357,8 @@
             <div id="js__grid-portfolio-gallery" class="cbp">
                 <!-- Item -->
                 <div class="s-portfolio__item cbp-item servicos motion">
-                    <div class="s-portfolio__img-effect g-overflow--hidden">
-                        <img src="img/services/01.jpg" alt="Portfolio Image" class="static-img-height-252">
+                    <div class="s-portfolio__img-effect g-overflow--hidden img-height">
+                        <img src="img/services/01.jpg" alt="Portfolio Image" class="ajust-img-center">
                     </div>
                     <div class="s-portfolio__caption-hover--cc">
                         <div class="g-margin-b-25--xs">
@@ -375,44 +375,8 @@
                 </div>
                 <!-- Item -->
                 <div class="s-portfolio__item cbp-item cases">
-                    <div class="s-portfolio__img-effect g-overflow--hidden">
-                        <img src="img/970x647/06.jpg" alt="Portfolio Image" class="static-img-height-252">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Filmow</h4>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="filmow.html" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item servicos">
-                    <div class="s-portfolio__img-effect g-overflow--hidden">
-                        <img src="img/services/02.jpg" alt="Portfolio Image" class="static-img-height-252">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Front-end</h4>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="frontend.html" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item motion cases">
-                    <div class="s-portfolio__img-effect g-overflow--hidden">
-                        <img src="img/970x647/08.jpg" alt="Portfolio Image" class="static-img-height-252">
+                    <div class="s-portfolio__img-effect g-overflow--hidden img-height" style="background-color: #ededef;">
+                        <img src="img/services/07.png" alt="Portfolio Image" class="img-height">
                     </div>
                     <div class="s-portfolio__caption-hover--cc">
                         <div class="g-margin-b-25--xs">
@@ -429,8 +393,44 @@
                 </div>
                 <!-- Item -->
                 <div class="s-portfolio__item cbp-item servicos">
-                    <div class="s-portfolio__img-effect g-overflow--hidden">
-                        <img src="img/services/06.jpg" alt="Portfolio Image" class="static-img-height-252">
+                    <div class="s-portfolio__img-effect g-overflow--hidden img-height">
+                        <img src="img/services/02.jpg" alt="Portfolio Image" class="ajust-img-center">
+                    </div>
+                    <div class="s-portfolio__caption-hover--cc">
+                        <div class="g-margin-b-25--xs">
+                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Front-end</h4>
+                        </div>
+                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                            <li>
+                                <a href="frontend.html" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                    <i class="ti-link"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="s-portfolio__item cbp-item motion servicos">
+                   <div class="s-portfolio__img-effect g-overflow--hidden img-height">
+                       <img src="img/services/09.jpg" alt="Portfolio Image" class="ajust-img-center">
+                   </div>
+                   <div class="s-portfolio__caption-hover--cc">
+                       <div class="g-margin-b-25--xs">
+                           <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">BigData</h4>
+                       </div>
+                       <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                           <li>
+                               <a href="bigdata.html" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                   <i class="ti-link"></i>
+                               </a>
+                           </li>
+                       </ul>
+                   </div>
+                </div>
+                <!-- Item -->
+                <div class="s-portfolio__item cbp-item servicos">
+                    <div class="s-portfolio__img-effect g-overflow--hidden img-height">
+                        <img src="img/services/06.png" alt="Portfolio Image" class="" style="position: relative; top: -30px;">
                     </div>
                     <div class="s-portfolio__caption-hover--cc">
                         <div class="g-margin-b-25--xs">
@@ -447,21 +447,21 @@
                 </div>
                 <!-- Item -->
                 <div class="s-portfolio__item cbp-item motion cases">
-                    <div class="s-portfolio__img-effect g-overflow--hidden">
-                        <img src="img/970x647/04.jpg" alt="Portfolio Image" class="static-img-height-252">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Case</h4>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="case.html" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <div class="s-portfolio__img-effect g-overflow--hidden img-height">
+                       <img src="img/services/08.jpg" alt="Portfolio Image" class="">
+                   </div>
+                   <div class="s-portfolio__caption-hover--cc">
+                       <div class="g-margin-b-25--xs">
+                           <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Filmow</h4>
+                       </div>
+                       <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                           <li>
+                               <a href="filmow.html" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                   <i class="ti-link"></i>
+                               </a>
+                           </li>
+                       </ul>
+                   </div> 
                 </div>
                 <!-- End Item -->
             </div>
@@ -472,7 +472,7 @@
 
         <!-- Feedback Form -->
         <!-- Parallax -->
-        <div class="g-padding-y-100--xs g-bg-color--sky-light" style="background: url(img/services/contato.png) 50% 0 no-repeat;">
+        <div id="contato" class="g-padding-y-100--xs g-bg-color--sky-light" style="background: url(img/services/contato.png) 50% 0 no-repeat;">
             <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
             </div>
         </div>
@@ -653,11 +653,9 @@
         <script type="text/javascript" src="js/components/counter.min.js"></script>
         <script type="text/javascript" src="js/components/portfolio-3-col.min.js"></script>
         <script type="text/javascript" src="js/components/parallax.min.js"></script>
-        <script type="text/javascript" src="js/components/google-map.min.js"></script>
         <script type="text/javascript" src="js/components/wow.min.js"></script>
-
-        <!-- Others Scripts -->
-        <script type="text/javascript" src="js/dropdown-select.js"></script>
+        <script type="text/javascript" src="js/custom-script.js"></script>
+        <script type="text/javascript" src="js/components/google-map.min.js"></script>
         <!--========== END JAVASCRIPTS ==========-->
 
     </body>

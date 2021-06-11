@@ -51,14 +51,45 @@
 	margin: auto;
 }
 
-.static-img-height-252 {
+.img-height {
 	max-height: 252px;
 }
 
 .ajust-img {
-	max-height: 360px;
+	position: relative;
+}
+
+.ajust-img-width {
+	max-width: 100%;
+}
+
+.ajust-img-top-1 {
+	top: -65px;
+}
+
+.ajust-img-top-2 {
+	top: -25px;
 }
 
 .ajust-img-center {
 	position: relative;
+	top: -60px;
+}
+
+.sub-title-color-default {
+	color: #656565;
+}
+
+@media (max-width: 1199px) {
+	.img-height {
+		max-height: 201.44px;
+	}
+
+	.ajust-img-top-1 {
+		top:  -50px;
+	}
+
+	.ajust-img-top-2 {
+		top:  -20px;
+	}
 }
