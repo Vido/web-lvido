@@ -94,17 +94,25 @@
 	}
 
 	.ajust-img-top-1 {
-		top:  -45px;
+		top: -45px;
 	}
 
 	.ajust-img-top-2 {
-		top:  -40px;
+		top: -40px;
 	}
 }
 
 @media (max-width: 991px) {
 	.img-height {
 		height: max-content;
+	}
+
+	.ajust-img-top-1 {
+		top: 0px;
+	}
+
+	.ajust-img-top-2 {
+		top: 0px;
 	}
 }
 
