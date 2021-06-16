@@ -72,7 +72,7 @@
 }
 
 .ajust-img-top-2 {
-	top: -40px;
+	top: -45px;
 }
 
 .ajust-img-center {
@@ -124,4 +124,13 @@
 	.ajust-img-top-2 {
 		top: 0px;
 	}
+}
+
+.align-justify {
+	text-align: justify;
+}
+
+.swiper-backend-ajust {
+	width: 80% !important;
+	margin:  auto;
 }
