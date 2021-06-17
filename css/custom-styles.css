@@ -114,6 +114,10 @@
 	.ajust-img-top-2 {
 		top: 0px;
 	}
+
+	#banner-contato {
+		background-size: 100% !important;
+	}
 }
 
 .align-justify {
@@ -123,4 +127,9 @@
 .swiper-backend-ajust {
 	width: 80% !important;
 	margin:  auto;
+}
+
+#banner-contato {
+	background: url(../img/contato.png) 55% 50% no-repeat;
+	background-size: 55%;
 }
