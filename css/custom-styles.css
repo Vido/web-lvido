@@ -81,7 +81,7 @@
 }
 
 .sub-title-color-default {
-	color: #656565;
+	color: #656565 !important;
 }
 
 @media (max-width: 1199px) {
@@ -99,6 +99,10 @@
 
 	.ajust-img-top-2 {
 		top: -40px;
+	}
+
+	.text-block-1 {
+		bottom: -30px !important;
 	}
 }
 
@@ -118,6 +122,16 @@
 	#banner-contato {
 		background-size: 100% !important;
 	}
+
+	.text-block-1 {
+		bottom: -55px !important;
+	}
+}
+
+@media (max-width: 767px) { 
+	.text-block-1 {
+		display: none;
+	}
 }
 
 .align-justify {
@@ -132,4 +146,42 @@
 #banner-contato {
 	background: url(../img/contato.png) 55% 50% no-repeat;
 	background-size: 55%;
+}
+
+.text-block-solucoes {
+	background-color: rgba(1, 1, 1, 0.6) !important;
+}
+
+.text-block-solucoes p a {
+	color: #f5f5f5 !important;
+}
+
+.text-block {
+	position: absolute;
+	background-color: rgba(245, 245, 245, 0.6);
+	bottom: 5px;
+	right: 10px;
+	border-radius: 5px;
+}
+
+.text-block p {
+	margin: 2px 5px;
+}
+
+.text-block p a {
+	color: #656565;
+	font-weight: 600;
+	font-size: .8rem;
+}
+
+.text-block-1 {
+	position: absolute;
+	bottom: -60px;
+	right: 10px;
+}
+
+.text-block-1 p a {
+	color: white;
+	font-weight: bold;
+	font-size: .8rem;
 }
