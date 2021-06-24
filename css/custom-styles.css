@@ -148,40 +148,35 @@
 	background-size: 55%;
 }
 
-.text-block-solucoes {
-	background-color: rgba(1, 1, 1, 0.6) !important;
-}
-
 .text-block-solucoes p a {
-	color: #f5f5f5 !important;
+	color: #7a88ef !important;
 }
 
 .text-block {
 	position: absolute;
-	background-color: rgba(245, 245, 245, 0.6);
 	bottom: 5px;
-	right: 10px;
-	border-radius: 5px;
+	right: 5px;
+	max-width: 100px;
+    text-align: end;
+}
+
+.text-block-contato {
+	position: initial !important;
+	margin: auto;
+}
+
+.img-contato {
+	right: 100px;
 }
 
 .text-block p {
 	margin: 2px 5px;
+    line-height: 1;
 }
 
 .text-block p a {
-	color: #656565;
+	color: #9c9c9c;
+	opacity: 0.2;
 	font-weight: 600;
-	font-size: .8rem;
-}
-
-.text-block-1 {
-	position: absolute;
-	bottom: -60px;
-	right: 10px;
-}
-
-.text-block-1 p a {
-	color: white;
-	font-weight: bold;
-	font-size: .8rem;
+	font-size: .55rem;
 }
