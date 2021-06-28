@@ -1,0 +1,182 @@
+/** Style of Dropdown Select **/
+#selector {
+	background-color: #fff;
+}
+
+.dropDown {
+	border-radius: 5px;
+	margin-top: 10px;
+	border: .5px solid #13b1cd;
+	background-color: #fff;
+	height: auto;
+	width: 100%;
+	position: absolute;
+	overflow: auto;
+		scrollbar-width: thin;
+		display: none;
+
+		transform: translate(0px, -9px);
+		transition: .5s;
+}
+
+.dropDown::-webkit-scrollbar {
+	width: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.dropDown::-webkit-scrollbar-thumb {
+	background-color: #13b1cd;
+	border-radius: 5px;
+}
+
+.item {
+	height: 30px;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	transition: 1s;
+	cursor: pointer;
+	color:  #656565;
+}
+
+.item:hover {
+	background-color: #13b1cd;
+	padding-left: 7px;
+	transition: 1s;
+}
+/** End  **/
+
+.center-image {
+	float: none;
+	margin: auto;
+}
+
+.static-img-height {
+	max-height: 252px;
+}
+
+.img-height {
+	height: 252px;
+}
+
+.ajust-img {
+	position: relative;
+}
+
+.ajust-img-width {
+	max-width: 100%;
+}
+
+.ajust-img-top-1 {
+	top: -55px;
+}
+
+.ajust-img-top-2 {
+	top: -45px;
+}
+
+.ajust-img-center {
+	position: relative;
+	top: -80px;
+}
+
+.sub-title-color-default {
+	color: #656565 !important;
+}
+
+@media (max-width: 1199px) {
+	.img-height {
+		height: 201.44px;
+	}
+
+	.ajust-max-height {
+		height: 250px;
+	}
+
+	.ajust-img-top-1 {
+		top: -45px;
+	}
+
+	.ajust-img-top-2 {
+		top: -40px;
+	}
+
+	.text-block-1 {
+		bottom: -30px !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.img-height {
+		height: max-content;
+	}
+
+	.ajust-img-top-1 {
+		top: 0px;
+	}
+
+	.ajust-img-top-2 {
+		top: 0px;
+	}
+
+	#banner-contato {
+		background-size: 100% !important;
+	}
+
+	.text-block-1 {
+		bottom: -55px !important;
+	}
+}
+
+@media (max-width: 767px) { 
+	.text-block-1 {
+		display: none;
+	}
+}
+
+.align-justify {
+	text-align: justify;
+}
+
+.swiper-backend-ajust {
+	width: 80% !important;
+	margin:  auto;
+}
+
+#banner-contato {
+	background: url(../img/contato.png) 55% 50% no-repeat;
+	background-size: 55%;
+}
+
+.text-block-solucoes p a {
+	color: #7a88ef !important;
+}
+
+.text-block {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	max-width: 100px;
+    text-align: end;
+}
+
+.text-block-contato {
+	position: initial !important;
+	margin: auto;
+}
+
+.img-contato {
+	right: 100px;
+}
+
+.text-block p {
+	margin: 2px 5px;
+    line-height: 1;
+}
+
+.text-block p a {
+	color: #9c9c9c;
+	opacity: 0.2;
+	font-weight: 600;
+	font-size: .55rem;
+}
