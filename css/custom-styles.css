@@ -180,3 +180,7 @@
 	font-weight: 600;
 	font-size: .55rem;
 }
+
+.custom-btn {
+	padding: .5rem 1rem;
+}
